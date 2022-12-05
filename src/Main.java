@@ -22,5 +22,9 @@ public class Main {
         else {
             System.out.println("установите облегченную версию для iOs");
         }
-    }
-}
+        //задание 3
+        int year = 2020;
+        if (year % 4 == 0) {
+if((year % 100 !=0) ||  (year % 400 == 0)){
+    System.out.println("год " + year + " високосный");}
+        }}}
